@@ -1,3 +1,32 @@
+To-Do List Application with React, TypeScript, and Redux Toolkit
+
+This project is a simple To-Do List application built using React, TypeScript, and Redux Toolkit. It demonstrates the use of state management through Redux, along with modern React concepts like functional components, custom hooks, and TypeScript type safety.
+
+Features:
+
+	•	Add, remove, and toggle (complete/incomplete) tasks.
+	•	Filter tasks by “All”, “Active”, or “Completed”.
+	•	Uses Redux Toolkit for efficient state management.
+	•	Task filtering based on completion status.
+	•	Task completion is indicated with a strike-through style.
+	•	Fully responsive UI with enhanced UX for users aged 35+.
+	•	Clean and intuitive user interface designed with a focus on accessibility and ease of use.
+
+Project Structure:
+
+	•	src/app/store.ts - Configures the Redux store.
+	•	src/features/tasks/ - Contains the task management components and Redux slice.
+	•	src/model/ListItem.ts - Defines the Task model.
+	•	src/App.tsx - Main application component.
+	•	src/index.tsx - Entry point of the application.
+
+How to run the project:
+
+	1.	Clone the repository
+	2.	Install dependencies: npm install
+	3.	Run the project: npm start
+	4.	Open localhost:3000 in your browser to view the app.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
